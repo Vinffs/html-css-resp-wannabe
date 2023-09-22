@@ -149,3 +149,23 @@ mobile: 480px in giù
         display: flex;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 0 10px;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    h2{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .text-center{
+        margin-bottom: 40px;
+    }
+
+}
