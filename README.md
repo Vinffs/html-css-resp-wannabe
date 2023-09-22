@@ -18,7 +18,3 @@ Sopra i 768px e fino ai 1160px il layout è un po’ troppo “rigido”! Come m
 Aggiungiamo una media query per sistemare il layout e non far comparire la scrollbar orizzontale.
 Consigli:
 Apriamo le slide e usiamole come guida per il lavoro, aggiungiamo sempre solo un pezzettino alla volta.
-
-
-Per poter vedere correttamente un sito responsive è necessaria l'aggiunta del tag:
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
