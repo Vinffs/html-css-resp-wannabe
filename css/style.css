@@ -167,5 +167,35 @@ mobile: 480px in giù
     .text-center{
         margin-bottom: 40px;
     }
+}
 
+@media screen and (max-width: 480px){
+    .row{
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    .lessons h2:first-of-type, .col .col-left{
+        margin-bottom: 40px;
+    }   
+    h3{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+    }
+    .col .col-left{
+        width: 60%;
+        justify-content: center;
+    }
+
+ 
 }
