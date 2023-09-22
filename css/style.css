@@ -154,22 +154,20 @@ mobile: 480px in giù
     .container{
         padding: 0 10px;
     }
-    h3{
-        font-size: 1.1rem;
-    }
-    p{
-        font-size: 0.7rem;
-    }
-    h2{
-        font-size: 1.6rem;
-        margin-bottom: 20px;
-    }
     .text-center{
         margin-bottom: 40px;
     }
 }
 
 @media screen and (max-width: 480px){
+    .why-us{
+        background-color: #222222;
+        padding-top: 40px;
+        margin-bottom: 0;
+    }
+    .steps{
+        margin-bottom: 0;
+    }
     .row{
         display: flex;
         flex-flow: column wrap;
@@ -182,20 +180,18 @@ mobile: 480px in giù
     h2{
         font-size: 2.5rem;
     }
-    .lessons h2:first-of-type, .col .col-left{
-        margin-bottom: 40px;
+    .lessons h2:first-of-type, .col.col-left{
+        margin-bottom: 50px;
     }   
     h3{
         font-size: 1.7rem;
     }
     p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-bottom: 40px;
     }
     .col .col-left{
         width: 60%;
         justify-content: center;
     }
-
- 
 }
